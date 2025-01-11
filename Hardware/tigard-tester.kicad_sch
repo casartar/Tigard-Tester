@@ -1774,6 +1774,12 @@
 		(uuid "ab3d8d42-d365-441a-b355-b8c7d4bdd2a6")
 	)
 	(junction
+		(at 158.75 64.77)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b31ce1d4-66b3-47aa-a7b0-f936f9638eac")
+	)
+	(junction
 		(at 158.75 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1826,12 +1832,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b11fd7-594c-465b-b66e-a5bd25941676")
-	)
-	(junction
-		(at 158.75 64.77)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f903215c-8eb8-4be2-8617-f97851ed8e9e")
 	)
 	(wire
 		(pts
@@ -2065,6 +2065,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 64.77) (xy 158.75 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d569c93-1fe2-4704-9fe7-ff6392c381fa")
+	)
+	(wire
+		(pts
 			(xy 114.3 62.23) (xy 120.65 62.23)
 		)
 		(stroke
@@ -2072,6 +2082,16 @@
 			(type default)
 		)
 		(uuid "2d9acc5b-60e6-466f-a41d-fa458f9f961a")
+	)
+	(wire
+		(pts
+			(xy 128.27 64.77) (xy 146.05 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dbf8004-5653-4705-89d2-8b6028b595c1")
 	)
 	(wire
 		(pts
@@ -2542,6 +2562,16 @@
 			(type default)
 		)
 		(uuid "6b017ec3-8f8d-4308-bafc-415a3182d7ab")
+	)
+	(wire
+		(pts
+			(xy 153.67 64.77) (xy 158.75 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e85acfd-55d4-4d3a-b052-1e8a95cf19e4")
 	)
 	(wire
 		(pts
@@ -3165,16 +3195,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 64.77) (xy 158.75 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ccdd6b01-891a-4289-bcd3-ef3d92efb084")
-	)
-	(wire
-		(pts
 			(xy 158.75 74.93) (xy 158.75 77.47)
 		)
 		(stroke
@@ -3412,16 +3432,6 @@
 			(type default)
 		)
 		(uuid "fd946c18-7e70-4beb-98ca-2b0a20ecfe4d")
-	)
-	(wire
-		(pts
-			(xy 158.75 64.77) (xy 158.75 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff959888-3c25-4efa-8aa7-adb7813afdb1")
 	)
 	(text "RTS"
 		(exclude_from_sim no)
@@ -4102,7 +4112,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04459eef-72a5-4ceb-a3c1-443120e20fd3")
-		(property "Reference" "D14"
+		(property "Reference" "D18"
 			(at 134.112 92.71 0)
 			(effects
 				(font
@@ -4118,7 +4128,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 93.98 0)
 			(effects
 				(font
@@ -4154,7 +4164,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D14")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -4169,7 +4179,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "045e2307-e6e6-4e0b-9854-e8e17e07331f")
-		(property "Reference" "R5"
+		(property "Reference" "R3"
 			(at 119.634 31.75 90)
 			(effects
 				(font
@@ -4185,7 +4195,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 34.798 90)
 			(effects
 				(font
@@ -4221,7 +4231,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R5")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4236,7 +4246,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "053e481c-f3c1-494c-99cc-4ac0f686547a")
-		(property "Reference" "D23"
+		(property "Reference" "D31"
 			(at 146.812 125.73 0)
 			(effects
 				(font
@@ -4252,7 +4262,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 127 0)
 			(effects
 				(font
@@ -4288,7 +4298,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D23")
+					(reference "D31")
 					(unit 1)
 				)
 			)
@@ -4304,7 +4314,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07208fa4-cc3d-4f68-8096-b6445fe17517")
-		(property "Reference" "D37"
+		(property "Reference" "D34"
 			(at 69.088 133.35 0)
 			(effects
 				(font
@@ -4320,7 +4330,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 66.04 134.62 0)
 			(effects
 				(font
@@ -4356,7 +4366,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D37")
+					(reference "D34")
 					(unit 1)
 				)
 			)
@@ -4371,7 +4381,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "095b9421-bccf-414d-8ba4-452ea0526d1f")
-		(property "Reference" "R26"
+		(property "Reference" "R21"
 			(at 86.614 97.79 90)
 			(effects
 				(font
@@ -4387,7 +4397,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 100.838 90)
 			(effects
 				(font
@@ -4423,7 +4433,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R26")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -4439,7 +4449,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0baf5b1b-39da-4df5-93d1-edaf2f921f3b")
-		(property "Reference" "D34"
+		(property "Reference" "D32"
 			(at 81.788 130.81 0)
 			(effects
 				(font
@@ -4455,7 +4465,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 78.74 132.08 0)
 			(effects
 				(font
@@ -4491,7 +4501,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D34")
+					(reference "D32")
 					(unit 1)
 				)
 			)
@@ -4506,7 +4516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fdfcd7e-b057-4441-a64c-3395c3897423")
-		(property "Reference" "D18"
+		(property "Reference" "D20"
 			(at 146.812 95.25 0)
 			(effects
 				(font
@@ -4522,7 +4532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 96.52 0)
 			(effects
 				(font
@@ -4558,7 +4568,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D18")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -4589,7 +4599,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 35.56 0)
 			(effects
 				(font
@@ -4641,7 +4651,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "10b6d8c5-ff2d-4ebc-948d-ef0240c933e4")
-		(property "Reference" "D32"
+		(property "Reference" "D24"
 			(at 81.788 118.11 0)
 			(effects
 				(font
@@ -4657,7 +4667,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 78.74 119.38 0)
 			(effects
 				(font
@@ -4693,7 +4703,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D32")
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -4708,7 +4718,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1fb44d25-f0cf-41b2-9dde-67a357b55302")
-		(property "Reference" "R38"
+		(property "Reference" "R34"
 			(at 86.614 133.35 90)
 			(effects
 				(font
@@ -4724,7 +4734,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 136.398 90)
 			(effects
 				(font
@@ -4760,7 +4770,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R38")
+					(reference "R34")
 					(unit 1)
 				)
 			)
@@ -4794,7 +4804,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 109.22 147.32 0)
 			(effects
 				(font
@@ -4867,7 +4877,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 40.64 0)
 			(effects
 				(font
@@ -4918,7 +4928,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2dcb4906-22d3-4506-a211-4ab5b30a3e69")
-		(property "Reference" "R27"
+		(property "Reference" "R25"
 			(at 119.634 118.11 90)
 			(effects
 				(font
@@ -4934,7 +4944,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 121.158 90)
 			(effects
 				(font
@@ -4970,7 +4980,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R27")
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -4985,7 +4995,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "32ccdfc1-7480-4f9e-bc75-103b3e8fb0cd")
-		(property "Reference" "R25"
+		(property "Reference" "R19"
 			(at 86.614 95.25 90)
 			(effects
 				(font
@@ -5001,7 +5011,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 98.298 90)
 			(effects
 				(font
@@ -5037,7 +5047,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R25")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -5052,7 +5062,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "33e1b8b7-8520-49c1-a0d4-0feeb31b1be4")
-		(property "Reference" "D26"
+		(property "Reference" "D36"
 			(at 134.112 143.51 0)
 			(effects
 				(font
@@ -5068,7 +5078,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 144.78 0)
 			(effects
 				(font
@@ -5104,7 +5114,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D26")
+					(reference "D36")
 					(unit 1)
 				)
 			)
@@ -5119,7 +5129,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "36d75ac3-c6d3-4cba-9b89-a6ccc400df84")
-		(property "Reference" "D17"
+		(property "Reference" "D22"
 			(at 134.112 97.79 0)
 			(effects
 				(font
@@ -5135,7 +5145,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 99.06 0)
 			(effects
 				(font
@@ -5171,7 +5181,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D17")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5202,7 +5212,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 30.48 0)
 			(effects
 				(font
@@ -5269,7 +5279,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 33.02 0)
 			(effects
 				(font
@@ -5321,7 +5331,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3b8a8fac-e7b4-4942-ba6b-9bf5740a70ef")
-		(property "Reference" "J4"
+		(property "Reference" "J1"
 			(at 106.68 34.2899 0)
 			(effects
 				(font
@@ -5339,7 +5349,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 109.22 35.56 0)
 			(effects
 				(font
@@ -5396,7 +5406,7 @@
 		(instances
 			(project ""
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "J4")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -5411,7 +5421,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ee86706-9835-40c3-ad82-4d8a3fe9e095")
-		(property "Reference" "D21"
+		(property "Reference" "D29"
 			(at 134.112 123.19 0)
 			(effects
 				(font
@@ -5427,7 +5437,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 124.46 0)
 			(effects
 				(font
@@ -5463,7 +5473,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D21")
+					(reference "D29")
 					(unit 1)
 				)
 			)
@@ -5478,7 +5488,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "42068aa3-81d6-4cec-b765-d0d8360c2583")
-		(property "Reference" "D19"
+		(property "Reference" "D23"
 			(at 146.812 100.33 0)
 			(effects
 				(font
@@ -5494,7 +5504,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 101.6 0)
 			(effects
 				(font
@@ -5530,7 +5540,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D19")
+					(reference "D23")
 					(unit 1)
 				)
 			)
@@ -5546,7 +5556,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4525f9b8-2451-4452-b73b-e666c09adf21")
-		(property "Reference" "D35"
+		(property "Reference" "D26"
 			(at 69.088 120.65 0)
 			(effects
 				(font
@@ -5562,7 +5572,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 66.04 121.92 0)
 			(effects
 				(font
@@ -5598,7 +5608,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D35")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -5613,7 +5623,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "459bf1d5-9e98-456b-a4ff-b3e14da4dab4")
-		(property "Reference" "R37"
+		(property "Reference" "R32"
 			(at 86.614 130.81 90)
 			(effects
 				(font
@@ -5629,7 +5639,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 133.858 90)
 			(effects
 				(font
@@ -5665,7 +5675,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R37")
+					(reference "R32")
 					(unit 1)
 				)
 			)
@@ -5696,7 +5706,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 25.4 0)
 			(effects
 				(font
@@ -5748,7 +5758,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4ae8d3df-5c29-4fa3-aa8f-086c858b41a9")
-		(property "Reference" "D36"
+		(property "Reference" "D30"
 			(at 69.088 125.73 0)
 			(effects
 				(font
@@ -5764,7 +5774,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 66.04 127 0)
 			(effects
 				(font
@@ -5800,7 +5810,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D36")
+					(reference "D30")
 					(unit 1)
 				)
 			)
@@ -5815,7 +5825,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4e8f9780-3355-4581-881c-9c24cb3896ba")
-		(property "Reference" "R6"
+		(property "Reference" "R2"
 			(at 119.634 29.21 90)
 			(effects
 				(font
@@ -5831,7 +5841,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 32.258 90)
 			(effects
 				(font
@@ -5867,7 +5877,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R6")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -5882,7 +5892,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4fe35ca0-2f2e-4867-94b5-b3ac328aa6a4")
-		(property "Reference" "D11"
+		(property "Reference" "D12"
 			(at 134.112 66.04 0)
 			(effects
 				(font
@@ -5898,7 +5908,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 67.31 0)
 			(effects
 				(font
@@ -5934,7 +5944,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D11")
+					(reference "D12")
 					(unit 1)
 				)
 			)
@@ -5950,7 +5960,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "511e5d41-0a2f-438c-8407-f64713b4509a")
-		(property "Reference" "D29"
+		(property "Reference" "D17"
 			(at 81.788 92.71 0)
 			(effects
 				(font
@@ -5966,7 +5976,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 78.74 93.98 0)
 			(effects
 				(font
@@ -6002,7 +6012,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D29")
+					(reference "D17")
 					(unit 1)
 				)
 			)
@@ -6017,7 +6027,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5ccb532a-218d-4499-bab3-beea880ca1ed")
-		(property "Reference" "R10"
+		(property "Reference" "R7"
 			(at 119.634 41.91 90)
 			(effects
 				(font
@@ -6033,7 +6043,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 44.958 90)
 			(effects
 				(font
@@ -6069,7 +6079,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R10")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -6084,7 +6094,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "63bc9620-af98-40ee-ac5c-724d3d64e530")
-		(property "Reference" "R18"
+		(property "Reference" "R15"
 			(at 119.634 73.66 90)
 			(effects
 				(font
@@ -6100,7 +6110,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 76.708 90)
 			(effects
 				(font
@@ -6136,7 +6146,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R18")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -6167,7 +6177,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 126.238 90)
 			(effects
 				(font
@@ -6218,7 +6228,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "656bbb36-c334-4035-92b9-86ca454e7b65")
-		(property "Reference" "R8"
+		(property "Reference" "R5"
 			(at 119.634 36.83 90)
 			(effects
 				(font
@@ -6234,7 +6244,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 39.878 90)
 			(effects
 				(font
@@ -6270,7 +6280,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R8")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -6301,7 +6311,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 43.18 0)
 			(effects
 				(font
@@ -6352,7 +6362,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "69831f9a-e8e4-4b07-b004-fee5ecbff8e3")
-		(property "Reference" "R3"
+		(property "Reference" "R38"
 			(at 119.634 148.59 90)
 			(effects
 				(font
@@ -6368,7 +6378,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 151.638 90)
 			(effects
 				(font
@@ -6404,7 +6414,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R3")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -6419,7 +6429,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75bdd26d-2e4c-4ec3-8078-0358bb037400")
-		(property "Reference" "D25"
+		(property "Reference" "D35"
 			(at 146.812 133.35 0)
 			(effects
 				(font
@@ -6435,7 +6445,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 134.62 0)
 			(effects
 				(font
@@ -6471,7 +6481,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D25")
+					(reference "D35")
 					(unit 1)
 				)
 			)
@@ -6486,7 +6496,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7841484f-486d-4921-8232-b3a80159f29b")
-		(property "Reference" "R28"
+		(property "Reference" "R27"
 			(at 119.634 120.65 90)
 			(effects
 				(font
@@ -6502,7 +6512,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 123.698 90)
 			(effects
 				(font
@@ -6538,7 +6548,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R28")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -6553,7 +6563,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "82339794-4c18-4d95-b614-9bfef6e603a1")
-		(property "Reference" "R30"
+		(property "Reference" "R31"
 			(at 119.634 125.73 90)
 			(effects
 				(font
@@ -6569,7 +6579,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 128.778 90)
 			(effects
 				(font
@@ -6605,7 +6615,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R30")
+					(reference "R31")
 					(unit 1)
 				)
 			)
@@ -6620,7 +6630,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84dcdc74-e1ac-49bf-bfda-bb6dad626bea")
-		(property "Reference" "R9"
+		(property "Reference" "R6"
 			(at 119.634 39.37 90)
 			(effects
 				(font
@@ -6636,7 +6646,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 42.418 90)
 			(effects
 				(font
@@ -6672,7 +6682,74 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R9")
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 149.86 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "860d8f64-52ab-4331-a52c-a5a7dfc14dbe")
+		(property "Reference" "D11"
+			(at 146.812 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 153.162 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 149.86 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7bf0b94b-d29c-4f9a-a1dd-9bb9979e9c28")
+		)
+		(pin "2"
+			(uuid "0b76cc00-19f0-4648-b555-6d0fac4c6dd1")
+		)
+		(instances
+			(project "tigard-tester"
+				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
+					(reference "D11")
 					(unit 1)
 				)
 			)
@@ -6688,7 +6765,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8770e790-1756-4fa6-adb0-ae42108e2b19")
-		(property "Reference" "D30"
+		(property "Reference" "D21"
 			(at 81.788 97.79 0)
 			(effects
 				(font
@@ -6704,7 +6781,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 78.74 99.06 0)
 			(effects
 				(font
@@ -6740,7 +6817,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D30")
+					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -6755,7 +6832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8a1572ce-1b37-4b1d-8900-3513436ba2bc")
-		(property "Reference" "D22"
+		(property "Reference" "D27"
 			(at 146.812 120.65 0)
 			(effects
 				(font
@@ -6771,7 +6848,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 121.92 0)
 			(effects
 				(font
@@ -6807,7 +6884,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D22")
+					(reference "D27")
 					(unit 1)
 				)
 			)
@@ -6822,7 +6899,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e20a190-d2f9-4191-acb1-68dc60083d6b")
-		(property "Reference" "R36"
+		(property "Reference" "R30"
 			(at 86.614 125.73 90)
 			(effects
 				(font
@@ -6838,7 +6915,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 128.778 90)
 			(effects
 				(font
@@ -6874,7 +6951,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R36")
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -6889,7 +6966,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8e69cf02-2352-48e9-9279-46dfb9a74797")
-		(property "Reference" "R4"
+		(property "Reference" "R1"
 			(at 119.634 24.13 90)
 			(effects
 				(font
@@ -6905,7 +6982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 27.178 90)
 			(effects
 				(font
@@ -6941,7 +7018,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R4")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6956,7 +7033,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8fc6e427-4b9e-426c-a683-aa5926b495c6")
-		(property "Reference" "D12"
+		(property "Reference" "D14"
 			(at 134.112 71.12 0)
 			(effects
 				(font
@@ -6972,7 +7049,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 72.39 0)
 			(effects
 				(font
@@ -7008,7 +7085,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D12")
+					(reference "D14")
 					(unit 1)
 				)
 			)
@@ -7023,7 +7100,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "90e66bed-0c3f-4b87-ae34-9824623c9882")
-		(property "Reference" "R21"
+		(property "Reference" "R20"
 			(at 119.634 95.25 90)
 			(effects
 				(font
@@ -7039,7 +7116,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 98.298 90)
 			(effects
 				(font
@@ -7075,7 +7152,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R21")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -7090,7 +7167,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "92942fbe-15a9-4a35-a05d-fd9127975aa7")
-		(property "Reference" "R19"
+		(property "Reference" "R16"
 			(at 119.634 76.2 90)
 			(effects
 				(font
@@ -7106,7 +7183,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 79.248 90)
 			(effects
 				(font
@@ -7142,7 +7219,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R19")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -7157,7 +7234,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "93656393-1c48-4b13-a292-dcbe8fb692e0")
-		(property "Reference" "D15"
+		(property "Reference" "D13"
 			(at 146.812 68.58 0)
 			(effects
 				(font
@@ -7173,7 +7250,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 69.85 0)
 			(effects
 				(font
@@ -7209,7 +7286,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D15")
+					(reference "D13")
 					(unit 1)
 				)
 			)
@@ -7224,7 +7301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9961ae09-fdc1-48f4-96d2-dfbd7114c3af")
-		(property "Reference" "R7"
+		(property "Reference" "R4"
 			(at 119.634 34.29 90)
 			(effects
 				(font
@@ -7240,7 +7317,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 37.338 90)
 			(effects
 				(font
@@ -7276,7 +7353,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R7")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -7291,7 +7368,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1325087-5db5-46b1-9f4d-54b534057754")
-		(property "Reference" "R14"
+		(property "Reference" "R11"
 			(at 119.634 63.5 90)
 			(effects
 				(font
@@ -7307,7 +7384,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 66.548 90)
 			(effects
 				(font
@@ -7343,7 +7420,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R14")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -7358,7 +7435,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "abfe2a36-d885-4607-b59c-758a7f2172fb")
-		(property "Reference" "R34"
+		(property "Reference" "R26"
 			(at 86.614 120.65 90)
 			(effects
 				(font
@@ -7374,7 +7451,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 123.698 90)
 			(effects
 				(font
@@ -7410,7 +7487,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R34")
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -7441,7 +7518,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 38.1 0)
 			(effects
 				(font
@@ -7493,7 +7570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aea8fd61-2876-4f35-9c7e-3c2741a1d7f1")
-		(property "Reference" "J6"
+		(property "Reference" "J3"
 			(at 107.95 87.63 0)
 			(effects
 				(font
@@ -7509,7 +7586,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x04_P2.54mm_Vertical"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -7563,7 +7640,7 @@
 		(instances
 			(project ""
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "J6")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -7578,7 +7655,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "afd9fdc4-4363-452b-8cd3-403e6cca29c5")
-		(property "Reference" "D24"
+		(property "Reference" "D33"
 			(at 134.112 130.81 0)
 			(effects
 				(font
@@ -7594,7 +7671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 132.08 0)
 			(effects
 				(font
@@ -7630,7 +7707,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D24")
+					(reference "D33")
 					(unit 1)
 				)
 			)
@@ -7645,7 +7722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b61e2e17-b977-46e3-8cff-c7daaf88ad2f")
-		(property "Reference" "R33"
+		(property "Reference" "R24"
 			(at 86.614 118.11 90)
 			(effects
 				(font
@@ -7661,7 +7738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 121.158 90)
 			(effects
 				(font
@@ -7697,7 +7774,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R33")
+					(reference "R24")
 					(unit 1)
 				)
 			)
@@ -7728,7 +7805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 103.378 90)
 			(effects
 				(font
@@ -7780,7 +7857,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b962be7e-d7f9-4f62-894d-bcde8ec4827a")
-		(property "Reference" "D33"
+		(property "Reference" "D28"
 			(at 81.788 123.19 0)
 			(effects
 				(font
@@ -7796,7 +7873,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 78.74 124.46 0)
 			(effects
 				(font
@@ -7832,7 +7909,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D33")
+					(reference "D28")
 					(unit 1)
 				)
 			)
@@ -7847,7 +7924,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bc1e6418-6045-4e26-bf30-eea14d09bbaa")
-		(property "Reference" "D13"
+		(property "Reference" "D16"
 			(at 134.112 76.2 0)
 			(effects
 				(font
@@ -7863,7 +7940,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 77.47 0)
 			(effects
 				(font
@@ -7899,7 +7976,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D13")
+					(reference "D16")
 					(unit 1)
 				)
 			)
@@ -7915,7 +7992,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd289443-6258-4597-bdd0-23763f667bd5")
-		(property "Reference" "J1"
+		(property "Reference" "J4"
 			(at 107.95 113.03 0)
 			(effects
 				(font
@@ -7931,7 +8008,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x07_P1.27mm_Vertical_SMD"
 			(at 106.68 127 0)
 			(effects
 				(font
@@ -8003,7 +8080,7 @@
 		(instances
 			(project ""
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "J1")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -8018,7 +8095,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bdf437d2-de82-44ad-addd-81a62b96ec0b")
-		(property "Reference" "R35"
+		(property "Reference" "R28"
 			(at 86.614 123.19 90)
 			(effects
 				(font
@@ -8034,7 +8111,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 126.238 90)
 			(effects
 				(font
@@ -8070,7 +8147,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R35")
+					(reference "R28")
 					(unit 1)
 				)
 			)
@@ -8085,7 +8162,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c169fdc5-d902-4f49-ad5f-71d5a5e2cea6")
-		(property "Reference" "D20"
+		(property "Reference" "D25"
 			(at 134.112 118.11 0)
 			(effects
 				(font
@@ -8101,7 +8178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 119.38 0)
 			(effects
 				(font
@@ -8137,7 +8214,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D20")
+					(reference "D25")
 					(unit 1)
 				)
 			)
@@ -8152,7 +8229,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c1e6f373-2c42-4dc9-b981-8ffe249a61d5")
-		(property "Reference" "D27"
+		(property "Reference" "D38"
 			(at 134.112 148.59 0)
 			(effects
 				(font
@@ -8168,7 +8245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 149.86 0)
 			(effects
 				(font
@@ -8204,7 +8281,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D27")
+					(reference "D38")
 					(unit 1)
 				)
 			)
@@ -8235,7 +8312,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 45.72 0)
 			(effects
 				(font
@@ -8286,7 +8363,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7062cac-71fe-4df6-86f5-21f2afa2808b")
-		(property "Reference" "R24"
+		(property "Reference" "R17"
 			(at 86.614 92.71 90)
 			(effects
 				(font
@@ -8302,7 +8379,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 91.44 95.758 90)
 			(effects
 				(font
@@ -8338,7 +8415,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R24")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -8353,7 +8430,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c71c5c1e-6a22-4b31-b073-503b077c20e8")
-		(property "Reference" "R2"
+		(property "Reference" "R37"
 			(at 119.634 146.05 90)
 			(effects
 				(font
@@ -8369,7 +8446,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 149.098 90)
 			(effects
 				(font
@@ -8405,7 +8482,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R2")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -8420,7 +8497,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cd0cb7fc-d17f-40c9-85f2-8fd5b6bbe806")
-		(property "Reference" "R11"
+		(property "Reference" "R8"
 			(at 119.634 44.45 90)
 			(effects
 				(font
@@ -8436,7 +8513,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 47.498 90)
 			(effects
 				(font
@@ -8472,7 +8549,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R11")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -8506,7 +8583,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x09_P2.54mm_Vertical"
 			(at 109.22 67.31 0)
 			(effects
 				(font
@@ -8594,7 +8671,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 57.15 0)
 			(effects
 				(font
@@ -8645,7 +8722,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d1f8d55b-c299-4402-a0f6-d5847e9cdcab")
-		(property "Reference" "R1"
+		(property "Reference" "R36"
 			(at 119.634 143.51 90)
 			(effects
 				(font
@@ -8661,7 +8738,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 146.558 90)
 			(effects
 				(font
@@ -8697,7 +8774,7 @@
 		(instances
 			(project ""
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R1")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -8712,7 +8789,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d6faa577-5f7e-4e13-a155-3e539c7d423b")
-		(property "Reference" "R31"
+		(property "Reference" "R33"
 			(at 119.634 130.81 90)
 			(effects
 				(font
@@ -8728,7 +8805,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 133.858 90)
 			(effects
 				(font
@@ -8764,7 +8841,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R31")
+					(reference "R33")
 					(unit 1)
 				)
 			)
@@ -8779,7 +8856,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "df60cafd-3d9c-4749-ac22-6794760497b2")
-		(property "Reference" "R12"
+		(property "Reference" "R9"
 			(at 119.634 55.88 90)
 			(effects
 				(font
@@ -8795,7 +8872,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 58.928 90)
 			(effects
 				(font
@@ -8831,7 +8908,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R12")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -8846,7 +8923,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e043afa2-c055-4453-a712-8332c0e6f69f")
-		(property "Reference" "R20"
+		(property "Reference" "R18"
 			(at 119.634 92.71 90)
 			(effects
 				(font
@@ -8862,7 +8939,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 95.758 90)
 			(effects
 				(font
@@ -8898,7 +8975,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R20")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -8914,7 +8991,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e2074d70-1483-4ee3-bb04-cbf4d56d84c9")
-		(property "Reference" "D31"
+		(property "Reference" "D19"
 			(at 69.088 95.25 0)
 			(effects
 				(font
@@ -8930,7 +9007,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 66.04 96.52 0)
 			(effects
 				(font
@@ -8966,7 +9043,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D31")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -8997,7 +9074,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 137.16 62.23 0)
 			(effects
 				(font
@@ -9048,7 +9125,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e57a9071-8943-4551-a536-df3be2568077")
-		(property "Reference" "R17"
+		(property "Reference" "R14"
 			(at 119.634 71.12 90)
 			(effects
 				(font
@@ -9064,7 +9141,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 74.168 90)
 			(effects
 				(font
@@ -9100,7 +9177,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R17")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -9131,7 +9208,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 100.838 90)
 			(effects
 				(font
@@ -9182,7 +9259,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ebc35c1a-d4c6-4844-871f-cfa5f80d443b")
-		(property "Reference" "R13"
+		(property "Reference" "R10"
 			(at 119.634 60.96 90)
 			(effects
 				(font
@@ -9198,7 +9275,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 64.008 90)
 			(effects
 				(font
@@ -9234,7 +9311,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R13")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -9249,7 +9326,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f4867931-7300-45a3-ae9b-ded4154c1ab1")
-		(property "Reference" "D16"
+		(property "Reference" "D15"
 			(at 146.812 73.66 0)
 			(effects
 				(font
@@ -9265,7 +9342,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 74.93 0)
 			(effects
 				(font
@@ -9301,7 +9378,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D16")
+					(reference "D15")
 					(unit 1)
 				)
 			)
@@ -9316,7 +9393,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f52a0075-8192-42d2-9a50-a4f073002c2f")
-		(property "Reference" "R15"
+		(property "Reference" "R12"
 			(at 119.634 66.04 90)
 			(effects
 				(font
@@ -9332,7 +9409,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 69.088 90)
 			(effects
 				(font
@@ -9368,7 +9445,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R15")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9383,7 +9460,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f5d585d9-a571-4173-bbc4-a80dcda2dae2")
-		(property "Reference" "R16"
+		(property "Reference" "R13"
 			(at 119.634 68.58 90)
 			(effects
 				(font
@@ -9399,7 +9476,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 71.628 90)
 			(effects
 				(font
@@ -9435,7 +9512,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R16")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -9450,7 +9527,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f7e08f85-2dcb-4248-b8b6-9f6c735725b6")
-		(property "Reference" "D28"
+		(property "Reference" "D37"
 			(at 146.812 146.05 0)
 			(effects
 				(font
@@ -9466,7 +9543,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 149.86 147.32 0)
 			(effects
 				(font
@@ -9502,7 +9579,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "D28")
+					(reference "D37")
 					(unit 1)
 				)
 			)
@@ -9517,7 +9594,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fcdfbb41-c490-477b-889c-668077ae81ec")
-		(property "Reference" "R32"
+		(property "Reference" "R35"
 			(at 119.634 133.35 90)
 			(effects
 				(font
@@ -9533,7 +9610,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 124.46 136.398 90)
 			(effects
 				(font
@@ -9569,7 +9646,7 @@
 		(instances
 			(project "tigard-tester"
 				(path "/90e25ae3-ec4e-425a-a06c-c66acb757614"
-					(reference "R32")
+					(reference "R35")
 					(unit 1)
 				)
 			)
