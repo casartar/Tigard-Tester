@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "KH-6X6X6H-STM")(type "KiCad")(uri "${KIPRJMOD}/KH-6X6X6H-STM.pretty")(options "")(descr ""))
+)

@@ -1,28 +1,59 @@
-from pylibftdi import Device
-from time import sleep
+import time
+from pylibftdi.device import Device
+from pylibftdi.driver import FtdiError
 
-# Define GPIO pins
-PIN_MASK = 0xFF  # All 8 GPIO pins (bitmask)
-TOGGLE_PIN = 0x01  # Pin to toggle (GPIO 0)
+# Number of GPIO pins (depending on the FTDI chip, this might vary)
+NUM_GPIO_PINS = 8  # Common for FTDI2232H with 8 GPIO pins per port
 
-# Open the FT2232 device
-try:
-    with Device() as dev:
-        # Set direction: 1 for output, 0 for input
-        dev.baudrate = 9600  # Set baud rate (optional, not critical for GPIO)
-        dev.ftdi_fn.ftdi_set_bitmode(PIN_MASK, 0x01)  # Bit-bang mode with all pins as output
+def toggle_gpio_pins():
+    try:
+        with Device(device_id=None, interface_select=2) as dev_b:  # Port B (interface 2)
+            dev_b.baudrate = 9600
+            dev_b.ftdi_fn.ftdi_set_bitmode(0x3B, 0x01)  # Set all pins as output
+            dev_b.write(bytes([0x00]))
 
-        print("Toggling GPIO...")
-        while True:
-            # Set the pin high
-            dev.write(bytes([TOGGLE_PIN]))
-            print("Pin HIGH")
-            sleep(0.5)
+        with Device(device_id=None, interface_select=1) as dev_a:  # Port A (interface 1)
+            dev_a.baudrate = 9600
+            dev_a.ftdi_fn.ftdi_set_bitmode(0x15, 0x01)  # Set all pins as output
+            dev_a.write(bytes([0x00]))
 
-            # Set the pin low
-            dev.write(bytes([0x00]))
-            print("Pin LOW")
-            sleep(0.5)
+        time.sleep(3)
 
-except Exception as e:
-    print(f"Error: {e}")
+        # Toggle GPIO pins on Port B
+        with Device(device_id=None, interface_select=2) as dev_b:  # Port B (interface 2)
+            dev_b.baudrate = 9600
+            dev_b.ftdi_fn.ftdi_set_bitmode(0x3B, 0x01)  # Set all pins as output
+            
+            dev_b.write(bytes([1<<0]))
+            time.sleep(1)
+            dev_b.write(bytes([1<<1]))
+            time.sleep(1)
+            dev_b.write(bytes([1<<3]))
+            time.sleep(1)
+            dev_b.write(bytes([1<<4]))
+            time.sleep(1)
+            dev_b.write(bytes([1<<5]))
+            time.sleep(1)
+            dev_b.write(bytes([0x00]))
+
+        # Toggle GPIO pins on Port A
+        with Device(device_id=None, interface_select=1) as dev_a:  # Port A (interface 1)
+            dev_a.baudrate = 9600
+            dev_a.ftdi_fn.ftdi_set_bitmode(0x15, 0x01)  # Set all pins as output
+
+            dev_a.write(bytes([1<<4]))
+            time.sleep(1)
+            dev_a.write(bytes([1<<2]))
+            time.sleep(1)
+            dev_a.write(bytes([1<<0]))
+            time.sleep(1)
+            dev_a.write(bytes([0x00]))
+
+        
+
+    except FtdiError as e:
+        print(f"FTDI device error: {e}")
+
+if __name__ == "__main__":
+    toggle_gpio_pins()
+
